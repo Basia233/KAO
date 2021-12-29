@@ -1,0 +1,84 @@
+# depslib dependency file v1.0
+1639858967 source:c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\main.cpp
+	<iostream>
+	"KsiazkaAdresowa.h"
+	"AdresatMenadzer.h"
+	<iostream>
+	"KsiazkaAdresowa.h"
+
+1639864272 c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\ksiazkaadresowa.h
+	<iostream>
+	"UzytkownikMenadzer.h"
+	"AdresatMenadzer.h"
+
+1639724997 c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\uzytkownikmenadzer.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+	"MetodyPomocnicze.h"
+
+1639598581 c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\uzytkownik.h
+	<iostream>
+
+1639855695 c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\plikzuzytkownikami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1639598581 c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<algorithm>
+
+1639855695 c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\adresatmenadzer.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Adresat.h"
+	"PlikZAdresatami.h"
+	"MetodyPomocnicze.h"
+
+1639863999 c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\adresat.h
+	<iostream>
+
+1639855695 c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\plikzadresatami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Adresat.h"
+	"MetodyPomocnicze.h"
+
+1639598581 source:c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\adresat.cpp
+	"Adresat.h"
+
+1639856588 source:c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\adresatmenadzer.cpp
+	"AdresatMenadzer.h"
+
+1639864272 source:c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\ksiazkaadresowa.cpp
+	"KsiazkaAdresowa.h"
+
+1639598581 source:c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1639856528 source:c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\plikzadresatami.cpp
+	"PlikZAdresatami.h"
+
+1639688951 source:c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1639598581 source:c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1639856528 source:c:\users\barba\desktop\programowanie\c++_obiektowe_seminaria_artur\ksiazkaadresowaobiektowo20211215\ksiazkaadresowaobiektowo\uzytkownikmenadzer.cpp
+	"UzytkownikMenadzer.h"
+
