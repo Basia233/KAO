@@ -42,6 +42,7 @@ public:
     int usunAdresata();
     int podajIdWybranegoAdresata();
     void edytujAdresata();
+    char wybierzOpcjeZMenuEdycja();
 
    // void wczytajAdresatowZalogowanegoUzytkownikaZPliku();
 

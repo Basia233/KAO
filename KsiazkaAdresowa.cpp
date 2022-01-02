@@ -78,11 +78,11 @@ int KsiazkaAdresowa::usunAdresata()
 }
 
 
-/*void KsiazkaAdresowa::edytujAdresata()
+void KsiazkaAdresowa::edytujAdresata()
 {
     adresatMenadzer -> edytujAdresata();
 }
-*/
+
 
 char KsiazkaAdresowa::wybierzOpcjeZMenuGlownego()
 {
