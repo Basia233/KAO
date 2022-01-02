@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt");
+    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt", "AdresaciTymczasowy.txt");
 
     char wybor;
 
@@ -42,16 +42,16 @@ int main()
                 ksiazkaAdresowa.dodajAdresata();
                 break;
             case '2':
-               // ksiazkaAdresowa.wyszukajAdresatowPoImieniu();
+               ksiazkaAdresowa.wyszukajAdresatowPoImieniu();
                 break;
             case '3':
-               // ksiazkaAdresowa.wyszukajAdresatowPoNazwisku();
+               ksiazkaAdresowa.wyszukajAdresatowPoNazwisku();
                 break;
             case '4':
                ksiazkaAdresowa.wyswietlWszystkichAdresatow();
                 break;
             case '5':
-                //ksiazkaAdresowa.usunAdresata();
+                ksiazkaAdresowa.usunAdresata();
                 break;
             case '6':
                // ksiazkaAdresowa.edytujAdresata();

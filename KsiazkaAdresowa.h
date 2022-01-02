@@ -15,13 +15,14 @@ class KsiazkaAdresowa
     AdresatMenadzer *adresatMenadzer;
     MetodyPomocnicze metodyPomocnicze;
     const string NAZWA_PLIKU_Z_ADRESATAMI;
+    const string NAZWA_TYMCZASOWEGO_PLIKU_Z_ADRESATAMI;
 
 public:
 
     //KsiazkaAdresowa();
 
-    KsiazkaAdresowa(string nazwaPlikuZUzytkownikami, string nazwaPlikuZAdresatami)
-    : uzytkownikMenadzer(nazwaPlikuZUzytkownikami), NAZWA_PLIKU_Z_ADRESATAMI(nazwaPlikuZAdresatami)
+    KsiazkaAdresowa(string nazwaPlikuZUzytkownikami, string nazwaPlikuZAdresatami, string nazwaTymczasowegoPlikuZAdresatami)
+    : uzytkownikMenadzer(nazwaPlikuZUzytkownikami), NAZWA_PLIKU_Z_ADRESATAMI(nazwaPlikuZAdresatami), NAZWA_TYMCZASOWEGO_PLIKU_Z_ADRESATAMI(nazwaTymczasowegoPlikuZAdresatami)
     {
         adresatMenadzer = NULL; // ustawiamy wskaznik na null, aby od poczatu wskazywal na zero, a nie przypadkowe miejsce w pamieci
     }
@@ -42,6 +43,10 @@ public:
     int dodajAdresata();
     void wyswietlWszystkichAdresatow();
     bool czyUzytkownikJestZalogowany();
+    void wyszukajAdresatowPoImieniu();
+    void wyszukajAdresatowPoNazwisku();
+    void edytujAdresata();
+    int usunAdresata();
 
     char wybierzOpcjeZMenuGlownego();
     char wybierzOpcjeZMenuUzytkownika();
