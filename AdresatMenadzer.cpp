@@ -229,8 +229,7 @@ void AdresatMenadzer::edytujAdresata()
     system("cls");
     Adresat adresat;
     int idEdytowanegoAdresata = 0;
-    //int numerLiniiEdytowanegoAdresata = 0;
-    //string liniaZDanymiAdresata = "";
+    string imie, nazwisko, numerTelefonu, email, adres;
 
     cout << ">>> EDYCJA WYBRANEGO ADRESATA <<<" << endl << endl;
     idEdytowanegoAdresata = podajIdWybranegoAdresata();
@@ -249,29 +248,34 @@ void AdresatMenadzer::edytujAdresata()
             {
             case '1':
                 cout << "Podaj nowe imie: ";
-                adresaci[i].ustawImie(metodyPomocnicze.wczytajLinie());
-                adresaci[i].ustawImie(metodyPomocnicze.zamienPierwszaLitereNaDuzaAPozostaleNaMale(adresaci[i].pobierzImie()));
+                imie = metodyPomocnicze.wczytajLinie();
+                imie = metodyPomocnicze.zamienPierwszaLitereNaDuzaAPozostaleNaMale(imie);
+                adresaci[i].ustawImie(imie);
                 plikZAdresatami.zaktualizujDaneWybranegoAdresata(adresaci[i]);
                 break;
             case '2':
                 cout << "Podaj nowe nazwisko: ";
-                adresaci[i].ustawNazwisko(metodyPomocnicze.wczytajLinie());
-                adresaci[i].ustawNazwisko(metodyPomocnicze.zamienPierwszaLitereNaDuzaAPozostaleNaMale(adresaci[i].pobierzNazwisko()));
+                nazwisko = metodyPomocnicze.wczytajLinie();
+                nazwisko = metodyPomocnicze.zamienPierwszaLitereNaDuzaAPozostaleNaMale(nazwisko);
+                adresaci[i].ustawNazwisko(nazwisko);
                 plikZAdresatami.zaktualizujDaneWybranegoAdresata(adresaci[i]);
                 break;
             case '3':
                 cout << "Podaj nowy numer telefonu: ";
-                adresaci[i].ustawNumerTelefonu(metodyPomocnicze.wczytajLinie());
+                numerTelefonu = metodyPomocnicze.wczytajLinie();
+                adresaci[i].ustawNumerTelefonu(numerTelefonu);
                 plikZAdresatami.zaktualizujDaneWybranegoAdresata(adresaci[i]);
                 break;
             case '4':
                 cout << "Podaj nowy email: ";
-                adresaci[i].ustawEmail(metodyPomocnicze.wczytajLinie());
+                email = metodyPomocnicze.wczytajLinie();
+                adresaci[i].ustawEmail(email);
                 plikZAdresatami.zaktualizujDaneWybranegoAdresata(adresaci[i]);
                 break;
             case '5':
                 cout << "Podaj nowy adres zamieszkania: ";
-                adresaci[i].ustawAdres(metodyPomocnicze.wczytajLinie());
+                adres = metodyPomocnicze.wczytajLinie();
+                adresaci[i].ustawAdres(adres);
                 plikZAdresatami.zaktualizujDaneWybranegoAdresata(adresaci[i]);
                 break;
             case '6':
