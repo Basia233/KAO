@@ -44,8 +44,6 @@ public:
     void edytujAdresata();
     char wybierzOpcjeZMenuEdycja();
 
-   // void wczytajAdresatowZalogowanegoUzytkownikaZPliku();
-
 };
 
 #endif

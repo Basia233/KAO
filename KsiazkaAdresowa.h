@@ -15,7 +15,6 @@ class KsiazkaAdresowa
     AdresatMenadzer *adresatMenadzer;
     MetodyPomocnicze metodyPomocnicze;
     const string NAZWA_PLIKU_Z_ADRESATAMI;
-    const string NAZWA_TYMCZASOWEGO_PLIKU_Z_ADRESATAMI;
 
 public:
 
